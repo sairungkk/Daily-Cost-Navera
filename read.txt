@@ -1,0 +1,37 @@
+cd "C:\Users\DELL\excel-node-app\excel-node-app"
+
+# ติดตั้ง PM2 ทั่วทั้งระบบ
+npm install -g pm2
+
+# รันเซิร์ฟเวอร์ผ่าน PM2
+pm2 start server.js --name "revenue-app"
+
+# ดูสถานะการทำงาน
+pm2 status
+
+# ดู Error log เมื่อมีปัญหา
+pm2 logs revenue-app
+
+npm install express exceljs cors บันทึกแยกบรรทัด
+
+PowerShell
+Remove-Item Revenue_Cost_Data.xlsx -ErrorAction SilentlyContinue
+
+วิธีติดตั้งและใช้งาน nodemon:
+
+เปิด Terminal ขึ้นมาใหม่ (หรือหยุด Server ตัวปัจจุบันด้วย Ctrl+C ก่อน)
+พิมพ์คำสั่งนี้เพื่อติดตั้ง nodemon ลงในเครื่อง (ทำแค่ครั้งเดียว):
+BASH
+
+
+
+
+npm install -g nodemon
+จากนี้ไป แทนที่คุณจะพิมพ์ node server.js ให้เปลี่ยนมาพิมพ์คำว่า:
+BASH
+
+
+
+
+nodemon server.js
+ข้อดี: หลังจากนี้เวลาคุณแก้โค้ดใน server.js แล้วกด Ctrl+S (Save) หน้าจอ Terminal มันจะรีโหลดตัวเองให้อัตโนมัติภายใน 1 วินาที โดยที่คุณไม่ต้องไปกด Ctrl+C เองอีกเลยครับ! สะดวกมากสำหรับการเขียนโค้ด

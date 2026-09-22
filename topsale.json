@@ -1,0 +1,34 @@
+[
+  {
+    "date": "2026-09-05",
+    "outlet": "Saitara",
+    "category": "Beverage",
+    "item": "Coke",
+    "qty": 10,
+    "amount": 1000
+  },
+  {
+    "date": "2026-09-01",
+    "outlet": "Juniper",
+    "category": "Food",
+    "item": "Tom Yum Goong",
+    "qty": 12,
+    "amount": 5400
+  },
+  {
+    "date": "2026-09-01",
+    "outlet": "Juniper",
+    "category": "Beverage",
+    "item": "Singha Beer",
+    "qty": 24,
+    "amount": 8640
+  },
+  {
+    "date": "2026-09-01",
+    "outlet": "Junsai",
+    "category": "Food",
+    "item": "Salmon Roll",
+    "qty": 8,
+    "amount": 3200
+  }
+]

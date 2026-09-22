@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2026-09-01",
+    "outlet": "All Outlets",
+    "supplier": "Makro HoReca",
+    "category": "Food",
+    "item": "Salmon Fillet",
+    "qty": 10,
+    "unit": "KG",
+    "amount": 12500
+  },
+  {
+    "date": "2026-09-01",
+    "outlet": "Juniper",
+    "supplier": "Wine Trading Co.",
+    "category": "Beverage",
+    "item": "Red Wine Bordeaux",
+    "qty": 6,
+    "unit": "BTL",
+    "amount": 9800
+  },
+  {
+    "date": "2026-09-02",
+    "outlet": "Junsai",
+    "supplier": "Fresh Market",
+    "category": "Food",
+    "item": "Japanese Rice",
+    "qty": 25,
+    "unit": "KG",
+    "amount": 4250
+  }
+]
