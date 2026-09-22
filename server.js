@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // ===== Authentication (ตรวจสิทธิ์ฝั่งเซิร์ฟเวอร์) =====
-const STAFF_PASSWORD = process.env.STAFF_PASSWORD || '1234';
+const STAFF_PASSWORD = process.env.STAFF_PASSWORD || 'Aap#navera';
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'admin001405';
 const TOKEN_TTL_MS = 12 * 60 * 60 * 1000; // token มีอายุ 12 ชั่วโมง
 const activeTokens = new Map(); // token -> { role, expiresAt }
