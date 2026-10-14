@@ -1,0 +1,33 @@
+# ===== Dependencies =====
+node_modules/
+
+# ===== ความลับ / configuration ของเครื่อง =====
+.env
+
+# ===== ข้อมูลจริงของโรงแรม — ห้ามขึ้น git =====
+Revenue_Cost_Data.xlsx
+Revenue_Cost_Data.xlsx.tmp
+Revenue_Cost_Data.xlsx.tmp.xlsx
+Import_Revenue_Cost_Data.xlsx
+backups/
+budget.json
+topsale.json
+toppurchase.json
+upsell.json
+outlets.json
+
+# ===== โฟลเดอร์เวอร์ชันเก่า / ไฟล์ทดสอบและ debug =====
+v1/
+_*.js
+_*.ps1
+
+# ===== Logs และไฟล์ชั่วคราว =====
+*.log
+*.tmp
+help.txt
+read.txt
+
+# ===== ไฟล์ชั่วคราวของ Excel / โฟลเดอร์ของ editor =====
+~$*.xlsx
+Import_*.xlsx
+.vscode/
